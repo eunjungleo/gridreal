@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<style>
+
+
+    .wrapper {display: grid;
+
+        grid-template-columns: 20px repeat(6,1fr) 20px;
+        grid-template-rows: 1fr 1fr 1fr;
+        border: 2px solid black;
+        width: 300px;
+        height: 400px;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        margin-right: 0px;
+        box-sizing: border-box;
+        }
+
+        #a {grid-column:1/4;}
+        #b {grid-column:4/6;}
+        #c {grid-column:6/8;}
+        #d {grid-column:2/6;
+            grid-row:2/3;}
+        #e {grid-column:6/8;}
+        #f {grid-column:8/9;}
+        #g {grid-column:1/2;}
+        #h {grid-column:2/4;}
+        #i {grid-column:4/8;}
+
+
+
+</style>
+<body>
+
+    <div class="wrapper">
+
+    
+        <div id=a style="background-color:red; text-align:center;">
+             1
+        </div>
+          <div id=b style="background-color:blue; text-align:center;">
+            2
+          </div>
+          <div id=c style="background-color:yellow">
+            3
+         </div>
+         <div id=d style="background-color:pink;">
+            4
+         </div>
+         <div id=e style="background-color:brown;">
+            5
+         </div>
+
+         <div id=f style="background-color: green">
+             6
+         </div>
+         <div id=g style="background-color:skyblue">
+             7
+         </div>
+         <div id=h style="background-color:violet">
+            8
+         </div>
+         <div id=i style="background-color:#353">
+             9
+        </div>
+            
+
+    </div>
+    
+</body>
+</html>
