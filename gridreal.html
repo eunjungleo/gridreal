@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<style>
+
+    *{text-align:center;}
+    h1 {font-family: san-serif; font-size: 40px; text-align:center; margin-top:30px;}
+
+
+    .wrapper {display: grid;
+
+        grid-template-columns: 20px repeat(6,1fr) 20px;
+        grid-template-rows: 1fr 1fr 1fr;
+        border: 2px solid black;
+        width: 300px;
+        height: 400px;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        margin-right: 0px;
+        box-sizing: border-box;
+        color: white;
+        font-family:verdana;
+        }
+
+        #a {grid-column:1/4;}
+        #b {grid-column:4/6;}
+        #c {grid-column:6/8;}
+        #d {grid-column:2/6;
+            grid-row:2/3;}
+        #e {grid-column:6/8;}
+        #f {grid-column:8/9;}
+        #g {grid-column:1/2;}
+        #h {grid-column:2/4;}
+        #i {grid-column:4/8;}
+
+
+
+</style>
+<body>
+
+    <h1> GRID <h2>
+
+    <div class="wrapper">
+
+    
+        <div id=a style="background-color:#061B3A;">
+             1
+        </div>
+          <div id=b style="background-color:#63819D;">
+             2
+          </div>
+          <div id=c style="background-color:#98AEC2;">
+             3
+         </div>
+         <div id=d style="background-color:#D3DDE0;">
+             4
+         </div>
+         <div id=e style="background-color:#5A85A7;">
+             5
+         </div>
+         <div id=f style="background-color:#315A87">
+             6
+         </div>
+         <div id=g style="background-color:#465E96;">
+             7
+         </div>
+         <div id=h style="background-color:#02266D;">
+             8
+         </div>
+         <div id=i style="background-color: #0047AB;">
+             9
+        </div>
+            
+
+    </div>
+    
+</body>
+</html>
